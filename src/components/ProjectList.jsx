@@ -5,7 +5,7 @@ import { assets } from '../assets/assets'
 const ProjectList = () => {
   return (
     <div className='my-6 py-6 px-4 sm:px-8 md:px-12 lg:px-16' id="projects">
-    <h2 className="text-center text-3xl mb-5">Projects <hr className="w-15 mx-auto" /></h2>
+    <h2 className="text-center text-4xl font-bold mb-5">Projects <hr className="w-15 mx-auto" /></h2>
 
     <div className='flex gap-4 flex-wrap items-center justify-center'>
       <Project title="User Authentication" description="User Authentication system with secure login and registration with email verification." tags={["React", "Node.js", "Express Js", "MySQL"]} image={assets.project_1} link="https://github.com/SheikAbdullahProjects/User-auth" />
