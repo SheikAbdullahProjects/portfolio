@@ -13,11 +13,8 @@ const HeroContent = () => {
         </span>
       </h3>
       <p className="text-white text-[15px] sm:text-[16px] mb-6">
-        I'm a passionate full stack developer with experience building
-        responsive, user-focused web applications from front to back.
-        Specialized in HTML,CSS,JavaScript,React,Fast API,Django,Restful API,
-        SQL. Whether it's building sleek user interfaces or optimizing backend
-        performance, I love solving real-world problems with technology.
+       I'm a passionate full stack developer skilled in building responsive, user-focused web applications from end to end. I specialize in HTML, CSS, JavaScript, React, FastAPI, Django, RESTful APIs, and SQL.
+I enjoy creating clean user interfaces, writing efficient backend logic, and solving real-world problems through technology.
       </p>
       <div className="flex gap-4 mb-6">
         <a href="https://www.instagram.com/_.mr._maverick/" target="_blank" rel="noopener noreferrer"><Instagram className="text-white w-7 h-7" /></a>
