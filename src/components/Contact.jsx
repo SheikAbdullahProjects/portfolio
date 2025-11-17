@@ -14,7 +14,7 @@ export default function Contact() {
   };
 
   return (
-    <div className=" px-5 sm:px-10 lg:px-20 py-14" id="contact">
+    <div className=" px-5 sm:px-10 lg:px-20 py-14 bg-[#F9FAFB]" id="contact">
         <h1 className="text-4xl font-bold text-center mb-12">Contact Me <hr className="w-15 mx-auto" /></h1>
 
     <div className="w-full flex flex-col lg:flex-row gap-10 justify-center">
