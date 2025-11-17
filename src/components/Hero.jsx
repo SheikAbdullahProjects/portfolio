@@ -6,7 +6,7 @@ import HeroContent from "./HeroContent";
 const Hero = () => {
   return (
     <div
-      className="h-screen bg-cover bg-center p-6 px-4 py-6 sm:px-8 md:px-12 lg:px-16"
+      className="h-screen bg-cover bg-center p-6 px-4 py-6 pb-20 sm:px-8 md:px-12 lg:px-16"
       style={{ backgroundImage: `url(${assets.main_bg})` }}
       id="home"
     >
