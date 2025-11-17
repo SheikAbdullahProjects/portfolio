@@ -14,7 +14,7 @@ const Project = ({ image, title, description, tags, link }) => {
       </div>
       <div className="flex flex-wrap items-center mt-4 gap-2">
         {tags.map((tag, index) => (
-          <span key={index} className="bg-[#1F2937] text-white inline-block rounded-md px-2 py-1.5">
+          <span key={index} className="bg-[#1F2937] text-white inline-block rounded-md px-2 py-1.5 text-sm">
             {tag}
           </span>
         ))}
