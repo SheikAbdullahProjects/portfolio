@@ -17,7 +17,7 @@ export default function Footer() {
         {/* MIDDLE - Quick Links */}
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
-          <ul className="flex flex-col gap-2 text-sm text-gray-400">
+          <ul className="flex sm:flex-col gap-2 text-sm text-gray-400">
             <a href="#home" className="hover:text-white transition cursor-pointer">Home</a>
             <a href="#about" className="hover:text-white transition cursor-pointer">About</a>
             <a href="#projects" className="hover:text-white transition cursor-pointer">Projects</a>
