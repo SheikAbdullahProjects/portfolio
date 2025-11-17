@@ -57,7 +57,7 @@ export default function Contact() {
       </section>
 
       {/* RIGHT FORM CARD */}
-      <section className="w-full lg:w-2/3 bg-white p-8 rounded-xl shadow-md border border-gray-200">
+      <section className="w-full lg:w-2/3 bg-white p-6 rounded-xl shadow-md border border-gray-200">
         <h2 className="text-2xl font-semibold mb-8">Send Me a Message</h2>
 
         <form className="space-y-1">
