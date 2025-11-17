@@ -12,7 +12,7 @@ const Project = ({ image, title, description, tags, link }) => {
         <h2 className="font-semibold text-xl">{title}</h2>
         <p className="font-light text-sm">{description}</p>
       </div>
-      <div className="flex items-center mt-4 gap-2">
+      <div className="flex flex-wrap items-center mt-4 gap-2">
         {tags.map((tag, index) => (
           <span key={index} className="bg-[#1F2937] text-white inline-block rounded-md px-2 py-1.5">
             {tag}
