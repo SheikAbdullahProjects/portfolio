@@ -27,7 +27,7 @@ const SkillsList = () => {
   ];
   return (
     <div className="my-6 py-6 px-4 sm:px-8 md:px-12 lg:px-16 bg-[#F9FAFB]" id="skills">
-    <h2 className="text-center text-3xl mb-5">Skills <hr className="w-15 mx-auto" /></h2>
+    <h2 className="text-center text-4xl font-bold mb-5">Skills <hr className="w-15 mx-auto" /></h2>
     <div className='mx-auto flex justify-center gap-10 flex-wrap mt-10'>
     
     <Skill skills={programmingLanguage} name="Programming Language" color="#FF9494" icon={<AppWindow />} text="Creating responsive ,accessible and performant user interfaces with modern technologies." />
