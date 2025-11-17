@@ -17,12 +17,12 @@ export default function Contact() {
     <div className="w-full flex flex-col lg:flex-row gap-10 justify-center px-5 sm:px-10 lg:px-20 py-14" id="contact">
       
       {/* LEFT CARD */}
-      <section className="w-full lg:w-1/3 bg-white p-8 rounded-xl shadow-md border border-gray-200">
+      <section className="w-full lg:w-1/3 bg-white p-6 rounded-xl shadow-md border border-gray-200">
         <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
 
         {/* Email */}
         <div className="flex items-start gap-3 mb-5">
-          <Mail className="w-6 h-6 text-black" />
+          <Mail className="min-w-6 h-6 text-black" />
           <div>
             <p className="text-sm text-gray-500">E-Mail</p>
             <p className="text-base font-medium text-gray-800">
