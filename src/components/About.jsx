@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 const About = () => {
   return (
     <div className="mt-6 py-6 px-4 sm:px-8 md:px-12 lg:px-16" id="about">
-    <h2 className="text-center text-3xl mb-5">About Me <hr className="w-15 mx-auto" /></h2>
+    <h2 className="text-center text-4xl fonrt-bold mb-5">About Me <hr className="w-15 mx-auto" /></h2>
     <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
       <img src={assets.about} alt="About" className="min-w-1/2" />
       <p className="sm:max-w-1/2 text-md sm:text-lg ">
