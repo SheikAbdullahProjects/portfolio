@@ -3,7 +3,7 @@ import { Instagram, Linkedin, Github, Mail } from "lucide-react";
 export default function Footer() {
   return (
     <footer className="w-full bg-black text-gray-300 py-10 px-6 sm:px-12 mt-16">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-2 sm:gap-10">
 
         {/* LEFT - Brand */}
         <div>
