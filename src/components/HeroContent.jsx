@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroContent = () => {
   return (
-    <div className="md:max-w-1/2 pt-32">
+    <div className="md:max-w-1/2 pt-20">
       <h2 className="text-white font-light text-[22px] sm:text-[28px]">Hello It's Me</h2>
       <h1 className="text-white font-bold text-[40px] sm:text-[50px]">Sheik Abdullah</h1>
       <h3 className="text-white font-semibold text-[26px] sm:text-[32px]">
