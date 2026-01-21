@@ -11,6 +11,7 @@ const SkillsList = () => {
     { name: "Tailwind CSS", level: 88 },
   ];
   const backend = [
+    { name: "Django REST Framework", level: 95 },
     { name: "Node Js", level: 95 },
     { name: "Express Js", level: 98 },
     { name: "REST API", level: 95 },
