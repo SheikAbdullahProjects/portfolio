@@ -13,8 +13,7 @@ const HeroContent = () => {
         </span>
       </h3>
       <p className="text-white text-[15px] sm:text-[16px] mb-6">
-       I’m a passionate full stack developer experienced in building high-quality, scalable web applications. I specialize in React, TypeScript, Node.js, Express, FastAPI, REST APIs, and SQL/MySQL.
-From crafting clean, responsive user interfaces to developing efficient backend systems, I love turning ideas into real, production-ready solutions.
+      I'm a passionate Full Stack Web Developer | GenAI Engineer experienced in building high-quality, scalable web applications, with hands-on experience building Generative AI and RAG (Retrieval-Augmented Generation) systems. I specialize in React, TypeScript, Node.js, Express, FastAPI, REST APIs, SQL/MySQL, and LLM-powered backends using LangChain. From crafting clean, responsive user interfaces to developing efficient backend systems and AI-driven applications, I love turning ideas into real, production-ready solutions.
       </p>
       <div className="flex gap-4 mb-6">
         <a href="https://www.instagram.com/_.mr._maverick/" target="_blank" rel="noopener noreferrer"><Instagram className="text-white w-7 h-7" /></a>
