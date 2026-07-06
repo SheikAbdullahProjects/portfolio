@@ -1,9 +1,8 @@
 import React from 'react'
 import Skill from './Skill'
-import { AppWindow, CodeXml, Database, SquareCode } from 'lucide-react';
+import { AppWindow, CodeXml, Database, SquareCode, BrainCircuit } from 'lucide-react';
 
 const SkillsList = () => {
-
   const frontend = [
     { name: "HTML", level: 95 },
     { name: "CSS", level: 98 },
@@ -15,7 +14,7 @@ const SkillsList = () => {
     { name: "Node Js", level: 95 },
     { name: "Express Js", level: 98 },
     { name: "REST API", level: 95 },
-    { name: "FatsAPI", level: 90 },
+    { name: "FastAPI", level: 90 },
   ];
   const database = [
     { name: "MYSQL", level: 95 },
@@ -26,6 +25,15 @@ const SkillsList = () => {
     { name: "TypeScript", level: 90 },
     { name: "Python", level: 95 },
   ];
+  const genAI = [
+    { name: "RAG (Retrieval-Augmented Generation)", level: 90 },
+    { name: "LangChain", level: 88 },
+    { name: "Groq API", level: 85 },
+    { name: "Prompt Engineering", level: 88 },
+    { name: "Vector Embeddings", level: 85 },
+    { name: "Vector Databases", level: 82 },
+  ];
+
   return (
     <div className="my-6 py-6 px-4 sm:px-8 md:px-12 lg:px-16 bg-[#F9FAFB]" id="skills">
     <h2 className="text-center text-4xl font-bold mb-5">Skills <hr className="w-15 mx-auto" /></h2>
@@ -36,6 +44,7 @@ const SkillsList = () => {
     <Skill skills={backend} name="Backend Development" color="#16A34A" icon={<CodeXml />} text="Building robust,scalable APIs and server-side
 applications with modern technologies." />
     <Skill skills={database} name="Database" color="#D93ABC" icon={<Database />} text="Skilled in designing and managing relational databases,API integration with databases." />
+    <Skill skills={genAI} name="Generative AI & RAG" color="#2563EB" icon={<BrainCircuit />} text="Building LLM-powered applications with retrieval-augmented generation and semantic search." />
     
     </div>
     </div>
