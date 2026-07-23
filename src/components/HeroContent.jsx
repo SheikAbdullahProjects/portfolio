@@ -13,7 +13,7 @@ const HeroContent = () => {
         </span>
       </h3>
       <p className="text-white text-[15px] sm:text-[16px] mb-6">
-    Full Stack Web Developer | GenAI Engineer building scalable web apps and LLM-powered RAG systems with React, Node.js, FastAPI, and LangChain.
+   Full Stack Web Developer | React, Node.js, Express.js | REST APIs | MySQL/MongoDB/PostgreSQL
       </p>
       <div className="flex gap-4 mb-6">
         <a href="https://www.instagram.com/_.mr._maverick/" target="_blank" rel="noopener noreferrer"><Instagram className="text-white w-7 h-7" /></a>
